@@ -1,4 +1,4 @@
-name: Lunaria
+name: lunaria
 
 on:
   # Trigger the workflow every time a pull request is opened or synchronized at the target `main` branch
@@ -17,6 +17,7 @@ permissions:
 
 jobs:
   lunaria-overview:
+    if: false # temporarily disabled
     name: Generate Lunaria Overview
     runs-on: ubuntu-latest
 
